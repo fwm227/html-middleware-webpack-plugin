@@ -13,6 +13,7 @@ plugins: [
   new HtmlWebpackPlugin(),
   new HtmlMiddlewareWebpackPlugin({
     'dns-prefetch': [url],
+    'preconnnect': [url],
     'prefetch': [url],
     'preload': [url],
     'prerender': [url]
