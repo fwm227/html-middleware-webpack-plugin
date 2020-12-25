@@ -6,6 +6,14 @@
   "scripts": {
     "build": "webpack"
   },
+  "keywords": [
+    "html-middleware-webpack-plugin",
+    "webpack-plugin",
+    "html-webpack-plugin",
+    "middleware",
+    "html-middleware",
+    "plugin"
+  ],
   "author": "fwm227",
   "license": "MIT"
 }

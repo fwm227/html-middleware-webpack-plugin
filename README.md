@@ -12,11 +12,41 @@ const HtmlMiddlewareWebpackPlugin = require('html-middleware-webpack-plugin');
 plugins: [
   new HtmlWebpackPlugin(),
   new HtmlMiddlewareWebpackPlugin({
-    'dns-prefetch': [url],
-    'preconnnect': [url],
-    'prefetch': [url],
-    'preload': [url],
-    'prerender': [url]
+    // to hint resource
+    resourceHint: {
+      'dns-prefetch': [String],
+      'preconnnect': [String],
+      'prefetch': [String],
+      'preload': [String],
+      'prerender': [String]
+    },
+    // insert script into body
+    scripts: [{
+      src: url,
+      async: Boolean,
+      defer: Boolean
+    }],
+    // custom tag
+    customTags: {
+      // insert head
+      headTags: [{
+        tagName: String,
+        voidTag: Boolean,
+        attributes: {
+          href: String,
+          ...
+        }
+      }],
+      // insert body
+      bodyTags: [{
+        tagName: String,
+        voidTag: Boolean,
+        attributes: {
+          src: String,
+          ...
+        }
+      }]
+    }
   })
 ]
 ```
