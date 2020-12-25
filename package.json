@@ -1,6 +1,6 @@
 {
   "name": "html-middleware-webpack-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "the middle handler of html-webpack-plugin",
   "main": "index.js",
   "scripts": {
