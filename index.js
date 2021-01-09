@@ -2,7 +2,7 @@ class htmlMiddlewareWebpackPlugin {
   constructor (options) {
     this.initHintValue();
     this.initOptions(options);
-    this.initHandlerFactory()
+    this.initHandlerFactory();
   }
 
   initHintValue () {

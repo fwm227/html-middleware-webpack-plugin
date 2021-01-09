@@ -4,8 +4,6 @@
 
 # how to use
 
-Add link tag with rel values (dns-prefetch, prefetch, preload, prerender) for optimize load resourse
-
 ```javascript
 const HtmlMiddlewareWebpackPlugin = require('html-middleware-webpack-plugin');
 
@@ -14,7 +12,7 @@ plugins: [
   new HtmlMiddlewareWebpackPlugin({
     // to hint resource
     resourceHint: {
-      'dns-prefetch': [String],
+      'dns-prefetch': [String], // e.g. 'dns-prefetch': ['https://xxx', ...]
       'preconnnect': [String],
       'prefetch': [String],
       'preload': [String],

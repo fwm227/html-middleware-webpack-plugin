@@ -6,6 +6,10 @@
   "scripts": {
     "build": "webpack"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fwm227/html-middleware-webpack-plugin.git"
+  },
   "keywords": [
     "html-middleware-webpack-plugin",
     "webpack-plugin",
