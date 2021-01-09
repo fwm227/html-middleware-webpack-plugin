@@ -19,5 +19,9 @@
     "plugin"
   ],
   "author": "fwm227",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fwm227/html-middleware-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/fwm227/html-middleware-webpack-plugin#readme"
 }
